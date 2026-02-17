@@ -36,6 +36,10 @@ export class UsersService {
 
     }
 
+    async getUserByPk(id: number) {
+        return this.usersRepository.findByPk(id)
+    }
+
     async getUserByEmail(email: string) {
         return this.usersRepository.findOne({
             where: {
@@ -46,5 +50,8 @@ export class UsersService {
             }
         })
     }
+
+
+
 
 }

@@ -8,6 +8,6 @@ import {rolesProviders} from "./roles.providers";
   providers: [RolesService, ...rolesProviders],
   exports: [
       RolesService
-  ]
+  ],
 })
 export class RolesModule {}
