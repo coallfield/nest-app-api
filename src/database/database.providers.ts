@@ -5,6 +5,7 @@ import {Role} from "../roles/roles.model";
 import {UserRoles} from "../roles/user-roles.model";
 
 
+
 export const databaseProviders = [
     {
         provide: 'SEQUELIZE',

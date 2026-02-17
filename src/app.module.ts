@@ -6,6 +6,7 @@ import { RolesModule } from './roles/roles.module';
 import { AuthModule } from './auth/auth.module';
 import {AdminModule} from "./admin/admin.module";
 
+
 @Module({
   imports: [
       ConfigModule.forRoot({
@@ -15,7 +16,8 @@ import {AdminModule} from "./admin/admin.module";
       UsersModule,
       RolesModule,
       AuthModule,
-      AdminModule
+      AdminModule,
+
   ],
   controllers: [],
   providers: [],
